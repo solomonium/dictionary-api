@@ -28,6 +28,17 @@ class DetailedPage extends StatelessWidget {
             Card(
               color: Colors.indigoAccent,
               child: SizedBox(
+                height: 50,
+                width: 300,
+                child: Center(
+                    child: Text(word,
+                        style: const TextStyle(
+                            fontSize: 20, fontWeight: FontWeight.bold))),
+              ),
+            ),
+            Card(
+              color: Colors.indigoAccent,
+              child: SizedBox(
                 height: 100,
                 width: 300,
                 child: Center(
